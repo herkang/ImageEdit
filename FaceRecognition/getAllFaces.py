@@ -6,5 +6,5 @@ for face_location in face_loactions:
     top,right,bottom,left=face_location
     face_image=image_of_fam[top:bottom,left:right]
     pil_image=Image.fromarray(face_image)
-    # pil_image.show()
+    pil_image.show()
     # pil_image.save(f"{top}.jpg")
